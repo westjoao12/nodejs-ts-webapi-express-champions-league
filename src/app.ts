@@ -1,16 +1,13 @@
 import express from 'express';
+import router from './routes/routes';
 
 function createApp() {
     const app = express();
 
     app.use(express.json());
+    app.use('/api', router);
 
-    app.get('/', (req, res) =>{
-        res.status(200).json({
-            message: 'Welcome to the Champions API!'
-        });
-    })
-    
+
     return app;
 }
 
