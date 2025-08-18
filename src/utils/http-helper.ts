@@ -6,3 +6,10 @@ export const ok = async (data: any): Promise<IHttpResponse> =>{
         body: data
     };
 }
+
+export const noContent = async (): Promise<IHttpResponse> => {
+    return {
+        statusCode: 204,
+        body: null
+    };
+}
