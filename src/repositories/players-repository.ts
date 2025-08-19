@@ -1,4 +1,5 @@
 import { IPlayerModel } from "../models/interfaces/IPlayerModel";
+import { IStatisticsModel } from "../models/interfaces/IStatisticsModel";
 
 const database: IPlayerModel[] = [
     {
@@ -113,6 +114,15 @@ export const updatePlayer = async (id: number, player: IPlayerModel): Promise<IP
         const updatedPlayer = { ...database[index], ...player };
         database[index] = updatedPlayer;
         return updatedPlayer;
+    }
+    return null;
+}
+
+export const updateStatisticsPlayer = async (id: number, statistics: IStatisticsModel): Promise<IPlayerModel | null> => {
+    const player = await findPlayerById(id);
+    if (player) {
+        player.statistics = { ...player.statistics, ...statistics };
+        return player;
     }
     return null;
 }

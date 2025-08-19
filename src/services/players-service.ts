@@ -1,4 +1,5 @@
 import { IPlayerModel } from "../models/interfaces/IPlayerModel";
+import { IStatisticsModel } from "../models/interfaces/IStatisticsModel";
 import * as PlayerRepository from "../repositories/players-repository";
 import * as httpResponse from "../utils/http-helper";
 
@@ -69,6 +70,21 @@ export const updatePlayerService = async (id: number, player: IPlayerModel) => {
 
     //pedir para o repository atualizar o player pelo id
     const updatedPlayer = await PlayerRepository.updatePlayer(id, player);
+
+    if (updatedPlayer) {
+        response = httpResponse.ok(updatedPlayer);
+    } else {
+        response = httpResponse.notFound("Player not found");
+    }
+
+    return response;
+}
+
+export const updateStatisticsPlayerService = async (id: number, statistics:  IStatisticsModel ) => {
+    let response = null;
+
+    //pedir para o repository atualizar as estatísticas do player pelo id
+    const updatedPlayer = await PlayerRepository.updateStatisticsPlayer(id, statistics);
 
     if (updatedPlayer) {
         response = httpResponse.ok(updatedPlayer);
