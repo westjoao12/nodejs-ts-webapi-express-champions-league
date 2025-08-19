@@ -1,0 +1,308 @@
+[
+    {
+        "id": 0,
+        "name": "FC Barcelona",
+        "stadium": "Camp Nou",
+        "manager": "Xavi Hernández"
+    },
+    {
+        "id": 1,
+        "name": "Paris Saint-Germain",
+        "stadium": "Parc des Princes",
+        "manager": "Luíz Henrique"
+    },
+    {
+        "id": 2,
+        "name": "Manchester United",
+        "stadium": "Old Trafford",
+        "manager": "Ruben Amorim"
+    },
+    {
+        "id": 3,
+        "name": "FC Barcelona",
+        "stadium": "Camp Nou",
+        "manager": "Hansi Flick"
+    },
+    {
+        "id": 4,
+        "name": "Bayern Munich",
+        "stadium": "Allianz Arena",
+        "manager": "Julian Nagelsmann"
+    },
+    {
+        "id": 5,
+        "name": "Juventus",
+        "stadium": "Allianz Stadium",
+        "manager": "Massimiliano Allegri"
+    },
+    {
+        "id": 6,
+        "name": "Chelsea FC",
+        "stadium": "Stamford Bridge",
+        "manager": "Mauricio Pochettino"
+    },
+    {
+        "id": 7,
+        "name": "Real Madrid",
+        "stadium": "Santiago Bernabéu",
+        "manager": "Carlo Ancelotti"
+    },
+    {
+        "id": 8,
+        "name": "AC Milan",
+        "stadium": "San Siro",
+        "manager": "Stefano Pioli"
+    },
+    {
+        "id": 9,
+        "name": "Inter Milan",
+        "stadium": "San Siro",
+        "manager": "Simone Inzaghi"
+    },
+    {
+        "id": 10,
+        "name": "Liverpool FC",
+        "stadium": "Anfield",
+        "manager": "Jürgen Klopp"
+    },
+    {
+        "id": 11,
+        "name": "Arsenal FC",
+        "stadium": "Emirates Stadium",
+        "manager": "Mikel Arteta"
+    },
+    {
+        "id": 12,
+        "name": "Tottenham Hotspur",
+        "stadium": "Tottenham Hotspur Stadium",
+        "manager": "Angelo Alessio"
+    },
+    {
+        "id": 13,
+        "name": "Atletico Madrid",
+        "stadium": "Wanda Metropolitano",
+        "manager": "Diego Simeone"
+    },
+    {
+        "id": 14,
+        "name": "Borussia Dortmund",
+        "stadium": "Signal Iduna Park",
+        "manager": "Edin Terzić"
+    },
+    {
+        "id": 15,
+        "name": "Ajax Amsterdam",
+        "stadium": "Johan Cruyff Arena",
+        "manager": "Mauricio Pochettino"
+    },
+    {
+        "id": 16,
+        "name": "Porto",
+        "stadium": "Estádio do Dragão",
+        "manager": "Sérgio Conceição"
+    },
+    {
+        "id": 17,
+        "name": "Benfica",
+        "stadium": "Estádio da Luz",
+        "manager": "Roger Schmidt"
+    },
+    {
+        "id": 18,
+        "name": "Sporting CP",
+        "stadium": "Estádio José Alvalade",
+        "manager": "Rúben Amorim"
+    },
+    {
+        "id": 19,
+        "name": "Olympique Lyonnais",
+        "stadium": "Groupama Stadium",
+        "manager": "Laurent Blanc"
+    },
+    {
+        "id": 20,
+        "name": "AS Roma",
+        "stadium": "Stadio Olimpico",
+        "manager": "José Mourinho"
+    },
+    {
+        "id": 21,
+        "name": "Napoli",
+        "stadium": "Stadio Diego Armando Maradona",
+        "manager": "Rudi Garcia"
+    },
+    {
+        "id": 22,
+        "name": "Sevilla FC",
+        "stadium": "Ramón Sánchez Pizjuán Stadium",
+        "manager": "José Luis Mendilibar"
+    },
+    {
+        "id": 23,
+        "name": "Valencia CF",
+        "stadium": "Mestalla",
+        "manager": "Rafa Benítez"
+    },
+    {
+        "id": 24,
+        "name": "Real Sociedad",
+        "stadium": "Reale Arena",
+        "manager": "Imanol Alguacil"
+    },
+    {
+        "id": 25,
+        "name": "Villarreal CF",
+        "stadium": "Estadio de la Cerámica",
+        "manager": "Quique Setién"
+    },
+    {
+        "id": 26,
+        "name": "Atalanta BC",
+        "stadium": "Gewiss Stadium",
+        "manager": "Gian Piero Gasperini"
+    },
+    {
+        "id": 27,
+        "name": "Lazio",
+        "stadium": "Stadio Olimpico",
+        "manager": "Maurizio Sarri"
+    },
+    {
+        "id": 28,
+        "name": "RB Leipzig",
+        "stadium": "Red Bull Arena",
+        "manager": "Marco Rose"
+    },
+    {
+        "id": 29,
+        "name": "Olympique de Marseille",
+        "stadium": "Stade Vélodrome",
+        "manager": "Igor Tudor"
+    },
+    {
+        "id": 30,
+        "name": "Feyenoord",
+        "stadium": "De Kuip",
+        "manager": "Arne Slot"
+    },
+    {
+        "id": 31,
+        "name": "Celtic FC",
+        "stadium": "Celtic Park",
+        "manager": "Brendan Rodgers"
+    },
+    {
+        "id": 32,
+        "name": "Galatasaray SK",
+        "stadium": "Nef Stadium",
+        "manager": "Okan Buruk"
+    },
+    {
+        "id": 33,
+        "name": "Club Brugge",
+        "stadium": "Jan Breydel Stadium",
+        "manager": "Scott Parker"
+    },
+    {
+        "id": 34,
+        "name": "FC Porto",
+        "stadium": "Estádio do Dragão",
+        "manager": "Sérgio Conceição"
+    },
+    {
+        "id": 35,
+        "name": "Shakhtar Donetsk",
+        "stadium": "Oblasny SportKomplex Metalist",
+        "manager": "Patrick van Leeuwen"
+    },
+    {
+        "id": 36,
+        "name": "Dinamo Kyiv",
+        "stadium": "NSC Olimpiyskiy Stadium",
+        "manager": "Mircea Lucescu"
+    },
+    {
+        "id": 37,
+        "name": "Red Star Belgrade",
+        "stadium": "Rajko Mitić Stadium",
+        "manager": "Dejan Stanković"
+    },
+    {
+        "id": 38,
+        "name": "Olympiacos FC",
+        "stadium": "Karaiskakis Stadium",
+        "manager": "Diego Martínez"
+    },
+    {
+        "id": 39,
+        "name": "PAOK FC",
+        "stadium": "Toumba Stadium",
+        "manager": "Razvan Lucescu"
+    },
+    {
+        "id": 40,
+        "name": "AFC Ajax",
+        "stadium": "Johan Cruyff Arena",
+        "manager": "Mauricio Pochettino"
+    },
+    {
+        "id": 41,
+        "name": "Sporting Braga",
+        "stadium": "Estádio Municipal de Braga",
+        "manager": "Artur Jorge"
+    },
+    {
+        "id": 42,
+        "name": "SC Freiburg",
+        "stadium": "Europa-Park Stadion",
+        "manager": "Christian Streich"
+    },
+    {
+        "id": 43,
+        "name": "Real Betis",
+        "stadium": "Estadio Benito Villamarín",
+        "manager": "Manuel Pellegrini"
+    },
+    {
+        "id": 44,
+        "name": "Real Valladolid",
+        "stadium": "Estadio José Zorrilla",
+        "manager": "Paulo Pezzolano"
+    },
+    {
+        "id": 45,
+        "name": "Celta Vigo",
+        "stadium": "Estadio Municipal de Balaídos",
+        "manager": "Carlos Carvalhal"
+    },
+    {
+        "id": 46,
+        "name": "Getafe CF",
+        "stadium": "Coliseum Alfonso Pérez",
+        "manager": "José Bordalás"
+    },
+    {
+        "id": 47,
+        "name": "Real Mallorca",
+        "stadium": "Visit Mallorca Estadi",
+        "manager": "Javier Aguirre"
+    },
+    {
+        "id": 48,
+        "name": "Alaves",
+        "stadium": "Estadio Mendizorrotza",
+        "manager": "Luis García Plaza"
+    },
+    {
+        "id": 49,
+        "name": "Elche CF",
+        "stadium": "Estadio Manuel Martínez Valero",
+        "manager": "Pablo Machín"
+    },
+    {
+        "id": 50,
+        "name": "Cadiz CF",
+        "stadium": "Estadio Nuevo Mirandilla",
+        "manager": "Sergio González"
+    }
+]
