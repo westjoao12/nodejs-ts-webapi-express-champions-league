@@ -18,7 +18,7 @@ const database: IPlayerModel[] = [
         }
     },
     {
-        id: 1,
+        id: 2,
         name: "Criano Ronaldo",
         club: "Manchester United",
         nationality: "Portugal",
@@ -34,7 +34,7 @@ const database: IPlayerModel[] = [
         }
     },
     {
-        id: 1,
+        id: 3,
         name: "Neymar Jr",
         club: "Paris Saint-Germain",
         nationality: "Brazil",
@@ -50,7 +50,7 @@ const database: IPlayerModel[] = [
         }
     },
     {
-        id: 1,
+        id: 4,
         name: "Kylian Mbappé",
         club: "Paris Saint-Germain",
         nationality: "France",
@@ -66,7 +66,7 @@ const database: IPlayerModel[] = [
         }
     },
     {
-        id: 1,
+        id: 5,
         name: "Kevin De Bruyne",
         club: "Manchester City",
         nationality: "Belgium",
