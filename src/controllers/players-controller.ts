@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { getPlayerByIdService, getPlayerService } from "../services/players-service";
+import { createPlayerService, getPlayerByIdService, getPlayerService } from "../services/players-service";
 
 export const getPlayer = async (req: Request, res: Response) => {
     const httpResponse = await getPlayerService();
@@ -13,4 +13,10 @@ export const getPlayerById = async (req: Request, res: Response) => {
 };
 
 export const postPlayer = async (req:Request, res: Response) => {
+    const bodyValue = req.body;
+    const httpResponse = await createPlayerService(bodyValue);
+    if(httpResponse)
+        res.status(httpResponse.statusCode).json(httpResponse.body);
+    else
+        res.status(400).json({ error: "Failed to create player" });
 }

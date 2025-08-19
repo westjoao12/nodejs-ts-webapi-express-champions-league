@@ -91,3 +91,9 @@ export const findPlayerById = async (id: number): Promise<IPlayerModel | null> =
     const player = database.find(p => p.id === id);
     return player || null;
 }
+
+export const insertPlayer = async (player: IPlayerModel): Promise<IPlayerModel> => {
+    const newPlayer = { ...player, id: database.length + 1 };
+    database.push(newPlayer);
+    return newPlayer;
+}
