@@ -97,3 +97,22 @@ export const insertPlayer = async (player: IPlayerModel): Promise<IPlayerModel> 
     database.push(newPlayer);
     return newPlayer;
 }
+
+export const deleteOnPlayer = async (id: number): Promise<boolean> => {
+    const index = database.findIndex(p => p.id === id);
+    if (index !== -1) {
+        database.splice(index, 1);
+        return true;
+    }
+    return false;
+}
+
+export const updatePlayer = async (id: number, player: IPlayerModel): Promise<IPlayerModel | null> => {
+    const index = database.findIndex(p => p.id === id);
+    if (index !== -1) {
+        const updatedPlayer = { ...database[index], ...player };
+        database[index] = updatedPlayer;
+        return updatedPlayer;
+    }
+    return null;
+}

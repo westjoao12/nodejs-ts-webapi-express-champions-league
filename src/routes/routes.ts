@@ -5,6 +5,8 @@ const router = Router();
 
 router.get('/players', PlayerController.getPlayer);
 router.post('/players',PlayerController.postPlayer );
+router.delete('/players/:id', PlayerController.deletePlayer);
+router.put('/players/:id', PlayerController.updatePlayer); // Assuming you want to update a player with PUT
 
 router.get('/players/:id', PlayerController.getPlayerById);
 

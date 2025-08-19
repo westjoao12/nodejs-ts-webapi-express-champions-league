@@ -53,10 +53,25 @@ export const deletePlayerService = async (id: number) => {
     let response = null;
 
     //pedir para o repository deletar o player pelo id
-    const deletedPlayer = await PlayerRepository.deletePlayerById(id);
+    const deletedPlayer = await PlayerRepository.deleteOnPlayer(id);
 
     if (deletedPlayer) {
         response = httpResponse.ok({ message: "Player deleted successfully" });
+    } else {
+        response = httpResponse.notFound("Player not found");
+    }
+
+    return response;
+}
+
+export const updatePlayerService = async (id: number, player: IPlayerModel) => {
+    let response = null;
+
+    //pedir para o repository atualizar o player pelo id
+    const updatedPlayer = await PlayerRepository.updatePlayer(id, player);
+
+    if (updatedPlayer) {
+        response = httpResponse.ok(updatedPlayer);
     } else {
         response = httpResponse.notFound("Player not found");
     }
