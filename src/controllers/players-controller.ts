@@ -20,3 +20,9 @@ export const postPlayer = async (req:Request, res: Response) => {
     else
         res.status(400).json({ error: "Failed to create player" });
 }
+
+export const deletePlayer = async (req: Request, res: Response) => {
+    const id = parseInt(req.params.id);
+    const httpResponse = await deletePlayerService(id);
+    res.status(httpResponse.statusCode).json(httpResponse.body);
+}

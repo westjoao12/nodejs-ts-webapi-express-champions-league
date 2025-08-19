@@ -48,3 +48,18 @@ export const createPlayerService = async (player: IPlayerModel) => {
 
     return response;
 }
+
+export const deletePlayerService = async (id: number) => {
+    let response = null;
+
+    //pedir para o repository deletar o player pelo id
+    const deletedPlayer = await PlayerRepository.deletePlayerById(id);
+
+    if (deletedPlayer) {
+        response = httpResponse.ok({ message: "Player deleted successfully" });
+    } else {
+        response = httpResponse.notFound("Player not found");
+    }
+
+    return response;
+}
